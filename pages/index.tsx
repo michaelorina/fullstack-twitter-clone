@@ -1,5 +1,5 @@
 export default function Home() {
   return (
-    <div>Hello World!</div>
+    <div className="tet-3xl text-sky-500">Hello World!</div>
   )
 }
