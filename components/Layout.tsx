@@ -12,7 +12,7 @@ const Layout: React.FC<LayoutProps> = ({children}) => {
                     <Sidebar/>
                     <div className="
                     col-span-3
-                    lg-col-span-2
+                    lg:col-span-2
                     border-x-[1px]
                     border-neutral-800
                     ">
