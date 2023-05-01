@@ -30,6 +30,20 @@ const SidebarItem: React.FC<SidebarItemProps>= ({
             ">
                 <Icon size={28} color="white"/>
             </div>
+            <div
+            className="
+            relative
+            hidden
+            lg:flex
+            items-center
+            gap-4
+            rounded-full
+            hover:bg-slate-300
+            hover:bg-opacity-10
+            cursor-pointer
+            ">
+                <Icon size={28} color="white"/>
+            </div>
         </div>
     );
 }
