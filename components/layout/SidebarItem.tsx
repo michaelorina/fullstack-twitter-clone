@@ -9,7 +9,7 @@ interface SidebarItemProps {
 const SidebarItem: React.FC<SidebarItemProps>= ({
     label,
     href,
-    icon,
+    icon: Icon,
     onClick
     }) => {
     return (
@@ -27,7 +27,9 @@ const SidebarItem: React.FC<SidebarItemProps>= ({
             hover:bg-opacity-10
             cursor-pointer
             lg:hidden
-            "></div>
+            ">
+                <Icon size={28} color="white"/>
+            </div>
         </div>
     );
 }
