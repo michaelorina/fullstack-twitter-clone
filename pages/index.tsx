@@ -1,5 +1,8 @@
+import Header from "@/components/Header"
 export default function Home() {
   return (
-    <div className="tet-3xl text-sky-500">Hello World!</div>
+    <>
+    <Header label="Home" />
+  </>
   )
 }
